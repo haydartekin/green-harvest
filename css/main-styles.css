@@ -19,31 +19,29 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    max-width: 640px;
-    max-height: 759px;
+    width: 650px;
+    height: 759px;
 }
     
 .image {
     border-radius: 20px;
     width: 430px;
     height: 559px;
-    padding-left: 20px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 20px;
 }
     
 .text-section {
     flex: 1;
     background-color: #4c6a37;
     color: #ffffff;
-    padding: 48px;
-    border-radius: 0 20px 20px 0;
-    max-width: 640px;
-    max-height: 759px;
+    padding: 20px;
+    width: 650px;
+    height: 759px;
     gap: 50px;
 }
 .text-section-div{
-    padding: 12px;
+    width: 450px;
+    height: 499px;
 }
 .text-section h1 {
     font-size: 32px;
@@ -64,13 +62,14 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    align-items: auto;
 }
 .step {
     display: flex;
-    align-items: center;
+    align-items: auto;
     gap: 15px;
     background-color: #ffffff;
-    color: #872843;
+    color: #14141499;
     padding: 15px;
     border-radius: 10px;
 }
@@ -93,6 +92,10 @@ body {
 .step p strong {
     color: #141414;
 }
+.advertisement{
+    width: 1280px;
+    margin: 0 auto;
+}
 .discount-banner {
     display: flex;
     align-items: center;
@@ -102,12 +105,14 @@ body {
     border-radius: 10px;
     font-size: 76px;
     color: #000000;
-    max-width: 1280px;
+    width: 1280px;
+    height: 440px;
 }
 .discount-banner{
-    max-width: 1080px;
+    width: 1080px;
+    height: 240px;
     size: 76px;
-    margin-left: 610px;
+    padding: 100px;
 }
 .discount-text {
     background-color: #4c6a37;
