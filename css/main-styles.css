@@ -1,0 +1,219 @@
+:root {
+    --maincolor: #7A3145;
+    --green: #576F35;
+    --black: #141414;
+    --white: #FBFBFB;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+}
+/* VEGETABLES */
+.vegetables {
+    background-color: var(--maincolor);
+    width: 1280px;
+    height: 1229px;
+    gap: 50px;
+    opacity: 0px;
+    padding: 100px 0 0 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.vegetables-block {
+    width: 626px;
+    height: 193px;
+    gap: 25px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.vegetables-header {
+    font-family: Inter Tight;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: var(--white);
+}
+
+.vegetables-header-vegetables {
+    font-family: Inter Tight;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: var(--white);
+    opacity: 0.3;
+}
+
+.vegetables-paragraph {
+    font-family: Inter Tight;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: var(--white);
+}
+
+.vegetables-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 21px;
+}
+
+.card {
+    width: 346px;
+    height: 379px;
+    padding: 32px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 40px;
+    opacity: 0px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container {
+    margin: 0 auto;
+}
+
+.card-text-container {
+    gap: 12px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-head {
+    font-family: Inter Tight;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: var(--maincolor);
+}
+
+.card-p {
+    font-family: Inter Tight;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: -0.015em;
+    text-align: left;
+
+}
+
+.card-img {
+    width: 100%;
+    max-width: 100%;
+    gap: 0px;
+    opacity: 0px;
+}
+
+/* TABLET WEBSITE*/
+@media (min-width:375px) and (max-width:768px){
+    .vegetables {
+        width: 768px;
+        height: auto;
+        padding: 100px 0 100px 32px;
+        gap: 50px;
+        opacity: 0px;
+    }
+
+    .vegetables-header {
+        font-family: Inter Tight;
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 64px;
+        letter-spacing: -0.015em;
+        text-align: left;
+    }
+
+    .vegetables-header-vegetables {
+        font-family: Inter Tight;
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 64px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        opacity: 0.3;
+    }
+
+    .vegetables-paragraph {
+        font-family: Inter Tight;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+    }
+}
+
+/* MOBİLE WEBSITE*/
+@media (min-width:320px) and (max-width: 375px) {
+    .vegetables {
+        width: 375px;
+        height: 2766px;
+        padding: 80px 20px 80px 20px;
+        gap: 40px;
+        opacity: 0px;
+    }
+
+    .vegetables-block {
+        width: 335px;
+        height: 192px;
+        gap: 20px;
+        opacity: 0px;
+
+    }
+
+    .vegetables-header {
+        font-family: Inter Tight;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: -0.015em;
+        text-align: left;
+
+    }
+
+    .vegetables-header-vegetables {
+        font-family: Inter Tight;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: -0.015em;
+        text-align: left;
+
+    }
+
+    .vegetables-paragraph {
+        font-family: Inter Tight;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+    }
+}
