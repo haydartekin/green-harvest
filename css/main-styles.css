@@ -172,7 +172,7 @@ body
 }
 
 /* MOBİLE WEBSITE*/
-@media (min-width:320px) and (max-width: 375px) {
+@media screen and (max-width: 375px) {
     .vegetables {
         width: 375px;
         height: 2766px;
