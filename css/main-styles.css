@@ -70,40 +70,47 @@ body {
     font-weight: 500;
     color: #fbfbfb;
 }
+.count-lable{
+    counter-reset: step-counter;
+    width: 450px;
+    height: 268px;
+    border: 5px;
 
+}
 .steps {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    align-items: auto;
-    list-style: none;
-    counter-reset: step-counter;
+    gap: 20px;
+    counter-reset: counter-item;
 }
 
 .steps li {
     counter-increment: step-counter;
     background-color: #ffffff;
-    color: #4c6a37;
-    border-radius: 8px;
+    border-radius: 5px;
     position: relative;
     font-weight: 600;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .steps li::before {
-    content: counter(step-counter);
-    background-color: #872843;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: bold;
+    counter-increment: counter-item;
+    content: counters(counter-item, ".") " ";
     width: 52px;
     height: 52px;
     display: flex;
+    flex-shrink: 0;
     align-items: center;
     justify-content: center;
+    background-color: #7a3145;
+    border: 5px solid #d0bfc4;
     border-radius: 50%;
-    position: relative;
-    transform: translateY(-50%);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    margin-right: 24px;
 }
 
 .step {
@@ -446,7 +453,6 @@ body {
         align-items: center;
         justify-content: center;
         border-radius: 50%;
-        position: relative;
         transform: translateY(-50%);
     }
 
