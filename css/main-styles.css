@@ -108,7 +108,7 @@ body {
     background-color: #7a3145;
     border: 5px solid #d0bfc4;
     border-radius: 50%;
-    color: #fff;
+    color: #ffffff;
     font-size: 20px;
     font-weight: 600;
     line-height: 100%;
@@ -464,6 +464,7 @@ body {
         gap: 15px;
         align-items: auto;
         list-style: none;
+        padding: 0px;
         counter-reset: step-counter;
     }
 
@@ -471,10 +472,11 @@ body {
         counter-increment: step-counter;
         background-color: #ffffff;
         color: #4c6a37;
-        border-radius: 2vw;
         position: relative;
         font-size: 12px;
         font-weight: 500;
+        padding: 12px 27px 12px 24px;
+        align-items: center;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
@@ -486,11 +488,14 @@ body {
         font-weight: bold;
         width: 52px;
         height: 52px;
+        position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
         border-radius: 50%;
         transform: translateY(-50%);
+        top: 25px;
+        left: 5px;
     }
 
     .step {
