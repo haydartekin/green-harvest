@@ -194,9 +194,8 @@ body
         font-size: 48px;
         font-weight: 600;
         line-height: 50px;
-        letter-spacing: -0.015em;
         text-align: left;
-
+        letter-spacing: -0.015em;
     }
 
     .vegetables-header-vegetables {
