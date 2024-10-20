@@ -134,156 +134,7 @@ body {
     opacity: 0px;
 }
 
-/* TABLET WEBSITE*/
-@media (min-width: 375px) and (max-width: 768px) {
-    .vegetables {
-        width: 768px;
-        height: auto;
-        padding: 100px 0 100px 32px;
-        gap: 50px;
-        opacity: 0px;
-    }
-
-    .vegetables-header {
-        font-family: Inter Tight;
-        font-size: 64px;
-        font-weight: 600;
-        line-height: 64px;
-        letter-spacing: -0.015em;
-        text-align: left;
-    }
-
-    .vegetables-header-vegetables {
-        font-family: Inter Tight;
-        font-size: 64px;
-        font-weight: 600;
-        line-height: 64px;
-        letter-spacing: -0.015em;
-        text-align: left;
-        opacity: 0.3;
-    }
-
-    .vegetables-paragraph {
-        font-family: Inter Tight;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 20px;
-        text-align: left;
-    }
-
-    .reviews-section {
-        width: 768px;
-        height: 701px;
-        padding: 100px 32px;
-        gap: 10px;
-        opacity: 0px;
-    }
-
-    .review.tablet {
-        border: 0px;
-        display: none;
-    }
-}
-
-/* MOBİLE WEBSITE*/
-@media screen and (max-width: 375px) {
-    .vegetables {
-        width: 375px;
-        height: 2766px;
-        padding: 80px 20px 80px 20px;
-        gap: 40px;
-        opacity: 0px;
-    }
-
-    .vegetables-block {
-        width: 335px;
-        height: 192px;
-        gap: 20px;
-        opacity: 0px;
-    }
-
-    .vegetables-header {
-        font-family: Inter Tight;
-        font-size: 48px;
-        font-weight: 600;
-        line-height: 50px;
-        letter-spacing: -0.015em;
-        text-align: left;
-    }
-
-    .vegetables-header-vegetables {
-        font-family: Inter Tight;
-        font-size: 48px;
-        font-weight: 600;
-        line-height: 50px;
-        letter-spacing: -0.015em;
-        text-align: left;
-    }
-
-    .vegetables-paragraph {
-        font-family: Inter Tight;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 18px;
-        text-align: left;
-    }
-
-    .reviews-section {
-        width: 375px;
-        height: 662px;
-        padding: 80px 20px 80px 20px;
-        gap: 40px;
-        opacity: 0px;
-    }
-
-    .title {
-        font-size: 48px;
-        font-weight: 600;
-        line-height: 50px;
-        letter-spacing: -1.5%;
-    }
-
-    .title span {
-        font-family: Inter Tight;
-        font-size: 48px;
-        font-weight: 600;
-        line-height: 50px;
-        letter-spacing: -0.015em;
-        text-align: left;
-        color: #576f35;
-    }
-
-    .review.mobile {
-        border: 0px;
-        display: none;
-    }
-
-    .review {
-        width: 335px;
-        height: 238px;
-        padding: 20px 16px;
-        border-radius: 24px;
-        opacity: 0px;
-        text-align: center;
-        border: 1px solid #7a31454d;
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-    }
-
-    .reviews-block {
-        width: 335px;
-        height: 224px;
-        gap: 20px;
-    }
-
-    .description {
-        font-size: 14px;
-        line-height: 18px;
-        weight: 500px;
-        color: #141414;
-    }
-}
+/* reviews */
 
 .reviews-section {
     background-color: #fbfbfb;
@@ -395,6 +246,56 @@ body {
     opacity: 0.4;
 }
 
+/* TABLET WEBSITE*/
+@media (min-width: 375px) and (max-width: 768px) {
+    .vegetables {
+        width: 768px;
+        height: auto;
+        padding: 100px 0 100px 32px;
+        gap: 50px;
+        opacity: 0px;
+    }
+
+    .vegetables-header {
+        font-family: Inter Tight;
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 64px;
+        letter-spacing: -0.015em;
+        text-align: left;
+    }
+
+    .vegetables-header-vegetables {
+        font-family: Inter Tight;
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 64px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        opacity: 0.3;
+    }
+
+    .vegetables-paragraph {
+        font-family: Inter Tight;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    .reviews-section {
+        width: 768px;
+        height: 701px;
+        padding: 100px 32px 100px 32px;
+        gap: 10px;
+        opacity: 0px;
+    }
+
+    .review.tablet {
+        display: none;
+    }
+}
+
 /* MOBİLE WEBSITE*/
 @media screen and (max-width: 375px) {
     .vegetables {
@@ -410,7 +311,6 @@ body {
         height: 192px;
         gap: 20px;
         opacity: 0px;
-
     }
 
     .vegetables-header {
@@ -418,8 +318,8 @@ body {
         font-size: 48px;
         font-weight: 600;
         line-height: 50px;
-        text-align: left;
         letter-spacing: -0.015em;
+        text-align: left;
     }
 
     .vegetables-header-vegetables {
@@ -429,7 +329,6 @@ body {
         line-height: 50px;
         letter-spacing: -0.015em;
         text-align: left;
-
     }
 
     .vegetables-paragraph {
@@ -438,5 +337,61 @@ body {
         font-weight: 500;
         line-height: 18px;
         text-align: left;
+    }
+
+    .reviews-section {
+        width: 375px;
+        height: 662px;
+        padding: 80px 20px 80px 20px;
+        gap: 40px;
+        opacity: 0px;
+    }
+
+    .title {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: -1.5%;
+    }
+
+    .title span {
+        font-family: Inter Tight;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        color: #576f35;
+    }
+
+    .review.mobile {
+        border: 0px;
+        display: none;
+    }
+
+    .review {
+        width: 335px;
+        height: 238px;
+        padding: 20px 16px;
+        border-radius: 24px;
+        opacity: 0px;
+        text-align: center;
+        border: 1px solid #7a31454d;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .reviews-block {
+        width: 335px;
+        height: 224px;
+        gap: 20px;
+    }
+
+    .description {
+        font-size: 14px;
+        line-height: 18px;
+        weight: 500px;
+        color: #141414;
     }
 }
