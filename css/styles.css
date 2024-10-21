@@ -570,3 +570,245 @@ body {
         font-size: 48px;
     }
 }
+/* FOOTER*/
+.footer {
+    background-color: var(--maincolor);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 100px;
+    gap: 125px;
+    position: absolute;
+    width: 1280px;
+    height: 391px;
+    left: calc(50% - 1280px / 2);
+    top: 4906px;
+  }
+  
+  .footer-container {
+    width: 1158px;
+    max-width: 1440px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .footer-container-footer {
+    width: 1158px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    vertical-align: baseline;
+  }
+  .footer-logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 25px;
+  
+    width: 513px;
+    height: 103px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .footer-logo {
+    width: 194px;
+    height: 18px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .footer-logo-title {
+    text-transform: uppercase;
+    width: 194px;
+    height: 18px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .footer-logo-p {
+    width: 265px;
+    height: 60px;
+    font-family: "Inter Tight";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #fbfbfb;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .footer-menu-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 121px;
+    width: 513px;
+    height: 146px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 25px;
+    width: 177px;
+    height: 146px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .footer-menu-ul {
+  }
+  
+  .footer-menu-li {
+    width: 177px;
+    height: 48px;
+    font-family: "Inter Tight";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    display: flex;
+    letter-spacing: -0.015em;
+    color: #fbfbfb;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 25px;
+    width: 215px;
+    height: 85px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .footer-contact-phone {
+    width: 174px;
+    height: 20px;
+    font-family: "Inter Tight";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #fbfbfb;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .footer-contact-address {
+    width: 215px;
+    height: 40px;
+    font-family: "Inter Tight";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #fbfbfb;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .footer-privacy-copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 660px;
+    color: #fbfbfb;
+    width: 1080px;
+    height: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .footer-privacy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 248px;
+    height: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .footer-copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 172px;
+    height: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .footer-privacy-text {
+    height: 20px;
+    font-family: "Inter Tight";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: rgba(251, 251, 251, 0.5);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .footer-copyright-text {
+    width: 172px;
+    height: 20px;
+    font-family: "Inter Tight";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: rgba(251, 251, 251, 0.5);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
